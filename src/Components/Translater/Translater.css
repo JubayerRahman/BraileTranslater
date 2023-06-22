@@ -1,0 +1,75 @@
+.translaterpage{
+    display: flex;
+    justify-content: space-around;
+}
+.texttotranslate, .textResult{
+    width: 46vw;
+    height: 60vh;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}
+::placeholder{
+    font-family: 'JetBrains Mono', monospace;
+}
+.texttotranslate{
+    background-color: lightgray;
+}
+.inputFiels, .outputField{
+    margin-top: 10vh;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.texttotranslate{
+    border: none;
+    outline: none;
+}
+.textResult{
+    overflow: scroll;
+    border: none;
+    text-align: justify;
+    border-left: none;
+    background-color: lightgray;
+    margin-top: 0px;
+}
+.texAreaBtn{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: s; */
+    margin-bottom: 10px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.texAreaBtn button{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .translaterpage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .texttotranslate, .textResult{
+        height: 25vh;
+        width: 80vw;
+        border-radius: 5px;
+    }
+    .texttotranslate{
+        border-radius: 5px;
+        background-color: lightgray;
+    }
+    .outputField{
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        border-radius: 5px;
+    }
+    .textResult{
+        border-radius: 5px;
+        border: none;
+    }
+}

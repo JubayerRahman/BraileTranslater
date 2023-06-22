@@ -1,0 +1,13 @@
+What are my goals regards to this app?
+=> I am willing to make a tranalater which will translate english alphabates into brail signs.
+What will be the motive for yhe app? 
+=> maybe it will help a man to learn baraille easily or  you can prepare your notes or can just use it for fun.
+---------------------------------------------------------------------------------------------------------------
+Now lets talk about the UI and features:
+=> I want to make this app preety informative. So, what i really want to do is i will add some besic informations 
+   about braille like history, use, etc.
+=> I want to make it in two portions. One will be translater field where it will be divided in 2 field one will be
+   a test area and anothe will be the result. areas and one can copy his brail translater after it is done.
+   and the another one will be braille script area here you will write in brail lenguage. like we write in 
+   different language and one can copy that too.
+    

@@ -1,0 +1,91 @@
+.HomeHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-bottom: 50px;
+    background: linear-gradient(purple, rgb(141,48,227));
+    padding: 20px;
+    color: white;
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+h2{
+    color: purple;
+    padding: 10px;
+}
+.whatIsBrail{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
+.homeData{
+    text-align: left;
+}
+.braillHistory{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+.braillHistory p{
+    width: 65vw;
+    /* text-align: right; */
+    padding-top: 0;
+}
+.braillHistory img{
+    width: 30vw;
+    height:fit-content;
+}
+.history{
+    margin-bottom: 50px;
+}
+.cradit{
+        margin-bottom: 0px;
+        background-color: red;
+}
+@media (max-width:768px) {
+    .braill1stImg{
+        width: 90vw;
+    }
+    img{
+        width: 90vw;
+    }
+    .whatIsBrail{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .homeData{
+        margin-left: 0%;
+    }
+    .braillHistory{
+        flex-direction: column;
+        align-items: center;
+    }
+    .braillHistory img{
+        width: fit-content;
+    }
+    .braillHistory p{
+        width: fit-content;
+    }
+    .cradit{
+        font-size: 12px;
+        margin-bottom: 0px;
+        background-color: red;
+    }
+}
